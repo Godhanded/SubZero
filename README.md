@@ -91,16 +91,16 @@ Currently we do not have enough legislation on after use act for plastic produci
 
 -   ### **Multichain Anycall**
 
-    -   <b style="color: orange">The multichain-anycall protocol is phenominal</b>, we used it to perform crosschain functions like call our withdraw function on our multiple contracts deployed on different chains(Goerli, FTM) see [code here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L78) and [here](https://github.com/Godhanded/SubZero/blob/main/contracts/calledContracts/cinsure.sol#L62)
+    -   <b style="color: orange">The multichain-anycall protocol is phenominal</b>, we used it to perform crosschain functions like call our withdraw function on our multiple contracts deployed on different chains(Goerli, FTM) see [code here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L155) and [here](https://github.com/Godhanded/SubZero/blob/main/contracts/calledContracts/cinsure.sol#L140)
 
 - ###  **Verse Token and Staking**
-    - 50% of premium is staked in verse staking farm to earn rewards on each premium, this will later be used to support Plastic companies and perform ocean clean ups.
+    - 50% of premium is staked in verse staking farm to earn rewards on each premium, this will later be used to support Plastic companies and perform ocean clean ups [see here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L111).
 
 - ### **Trufflation**
-    - We used trufflation to retrieve on-chain through chainlink, the year out of year inflation index, used for transperency and will later be modified for tracking progress for plastics only.
-
+    - We used trufflation to retrieve on-chain through chainlink, the year out of year inflation index, used for transperency and will later be modified for tracking progress for plastics only.[see here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L208)
+    
 - ### **ChainLink**
-    - using chainlink keepers to call claim reward functions and AnyApi to get inflation index from Trufflation 
+    - using chainlink keepers to call claim reward functions and AnyApi to get inflation index from Trufflation.[see here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L218) and [here](https://github.com/Godhanded/SubZero/blob/main/contracts/insure.sol#L197)
 
 -   ### **Goerli Testnet**
 
